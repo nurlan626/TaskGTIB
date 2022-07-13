@@ -8,16 +8,16 @@
 
 }
 .contacts-inner{
+    padding-top: 60px;
     display: flex;
     height: 100%;
+    justify-content: space-between;
 }
 .contacts-logo{
     width: 150px;
-    margin-left: 20px;
-    margin-top: 10px;
+
 }
 .contacts-left{
-    margin-top: 70px;
     margin-left: 100px;
     display: flex;
     flex-direction: column;
@@ -30,4 +30,60 @@
     font-size: 20px;
     width: 180px;
     text-align: center;
+}
+.contacts-center{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .contacts-center-title{
+        font-size: 24px;
+    }
+    .contacts-center-data{
+        margin-top: 50px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+    }
+}
+
+.contact-button{
+    background-color: #01A2D6;
+    padding: 13px 50px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.contacts-center-data{
+    width: 310px;
+}
+.contact-input{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: center;
+    height: 50px;
+}
+.message{
+    height: 115px;
+}
+.footer{
+    background-color: #0088B4;
+
+}
+.footer-inner{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.footer-navigation{
+    display: flex;
+    gap: 20px;
+
 }
