@@ -1,0 +1,126 @@
+.news-sector-title {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  .title {
+    width: fit-content;
+    .underlined {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      > .blue {
+        background-color: #00a9d2;
+        height: 3px;
+        width: 30%;
+      }
+      > .red {
+        background-color: #d72c18;
+        height: 3px;
+        width: 30%;
+      }
+      > .green {
+        background-color: #00a65a;
+        height: 3px;
+        width: 30%;
+      }
+    }
+  }
+
+  .show-all {
+    color: #27a5e8;
+    margin-left: 31px;
+    font-size: 14px;
+  }
+}
+
+.container{
+    margin: 0 107px 0 107px;
+}
+.section2{
+    display: flex;
+    gap: 10px;
+}
+
+.news-sector{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.news-list{
+    display: flex;
+    gap: 36px;
+    margin-top: 50px;
+}
+
+.news{
+    width: 100%;
+    max-width: 254px;
+    .news-img-box{
+        .news-img{
+            border: 3px solid #67B3CE;
+        }
+    }
+    
+    .news-title{
+        font-size: 16px;
+        font-weight: 700;
+        margin: 18px 0 18px 0;
+    }
+    .news-date{
+        display: flex;
+        color: #5E6362;
+        align-items: center;
+        gap: 10px;
+        font-size: 12px;
+    }
+}
+
+.advertisements{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.advertisements-inner{
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.advertisement-top{
+    display: flex;
+}
+.advertisement-list{
+    margin-top: 50px;
+    box-shadow: 0px 5px 6px #aaaaaa;
+    background-color: white;
+
+}
+.advertisement-title{
+    font-size: 16px;
+    font-weight: 700;
+}
+.advertisement-date{
+    margin-top: 15px;
+    color: #666666;
+    
+
+}
+.advertisement-text{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #4D4D4D;
+}
+.advertisement{
+    padding: 20px;
+}
+.moreinfo{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #27A5E8;
+    text-align: right;
+
+}

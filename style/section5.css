@@ -1,0 +1,33 @@
+.contacts {
+  background-size: cover;
+  height: 560px;
+  background-color: #0b4658;
+}
+
+.contacts-inner {
+  display: flex;
+  height: 100%;
+}
+
+.contacts-logo {
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.contacts-left {
+  margin-top: 70px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  color: white;
+}
+
+.contact-left-text {
+  font-size: 20px;
+  width: 180px;
+  text-align: center;
+}/*# sourceMappingURL=section5.css.map */

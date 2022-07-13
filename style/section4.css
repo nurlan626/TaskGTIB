@@ -1,0 +1,34 @@
+.section4 {
+  margin-top: 50px;
+}
+
+.section4-img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.FAQ {
+  margin-top: 44px;
+}
+
+.questions-list {
+  font-size: 24px;
+  margin: 50px 0 50px 30px;
+}
+
+.question-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+}
+
+.partners {
+  margin-top: 87px;
+  margin-bottom: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.partners > img {
+  height: 150px;
+  width: auto;
+}/*# sourceMappingURL=section4.css.map */

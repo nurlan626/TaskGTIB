@@ -1,0 +1,37 @@
+.section3{
+    margin-top: 50px;
+    background-color: #fafefd;
+    
+}
+.media-list{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.media-left-img{
+    border: 3px solid #0079a0;
+}
+.media{
+    display: flex;
+    width: 100%;
+    max-width: 380px;
+    
+    .media-right{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 5px 6px #aaaaaa;
+
+        
+        padding: 30px 6px 11px 10px;
+        justify-content: space-between;
+        .media-right-text{
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .show-all{
+            text-align: right;
+            color: #27A5E8;
+            font-size: 14px;
+        }
+    }
+}
