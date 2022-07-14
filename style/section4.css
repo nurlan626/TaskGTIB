@@ -27,6 +27,7 @@
   margin-bottom: 110px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .partners > img {
   height: 150px;

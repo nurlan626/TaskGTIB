@@ -8,6 +8,13 @@
   margin-top: 50px;
   justify-content: space-between;
 }
+@media (max-width: 1024px) {
+  .media-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
 
 .media-left-img {
   border: 3px solid #0079a0;

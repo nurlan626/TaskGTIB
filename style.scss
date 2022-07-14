@@ -129,14 +129,18 @@ html{
     align-items: center;
     background-color: #0188B4;
     font-size: 16px;
+
     padding: 18px;
-    padding-left: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     @media (max-width: 700px) {
-        padding-left: 50px;
+      padding-left: 50px;
+      padding-right: 50px;
         font-size: 12px;
       }
       @media (max-width: 500px) {
-        padding-left: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         font-size: 12px;
       }
       @media (max-width: 400px) {
@@ -154,8 +158,6 @@ html{
       @media (max-width: 450px) {
         gap: 10px;
       }
-   
-
 }
 .nav-items__language{
     display: flex;

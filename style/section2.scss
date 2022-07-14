@@ -36,7 +36,7 @@
 .section2 {
   display: flex;
   gap: 10px;
-  @media (max-width: 1024px) {
+  @media (max-width: 1290px) {
     flex-direction: column;
     // justify-content: center;
     // align-items: center;
@@ -87,6 +87,7 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .advertisements-inner {
   width: 100%;
